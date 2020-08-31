@@ -13,6 +13,7 @@ def binarysearch(num, array):
             col-=1  # go left
         else:
             row+=1  # go down
+
     return -10, -10     # return an impossible answer
 
 # function to create a randomly sized 2D array in numerical order
